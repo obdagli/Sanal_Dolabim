@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="135dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Sanal Dolabım"
+        android:textColor="@color/teal_700"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_cekmeceolustur"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Çekmece Oluştur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_kiyafetlerim"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Kıyafetlerim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_cekmecelerim" />
+
+    <Button
+        android:id="@+id/bt_cekmecelerim"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Çekmecelerim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_cekmeceolustur" />
+
+    <Button
+        android:id="@+id/bt_kabin"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Kombin Odası"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_kiyafetlerim" />
+
+    <Button
+        android:id="@+id/bt_etkinlikekle"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Etkinlik Ekle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_kabin" />
+
+    <Button
+        android:id="@+id/bt_etkinliklerim"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="82dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Etkinliklerim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_etkinlikekle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
